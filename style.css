@@ -23,7 +23,7 @@
 	}
 }
 
-@media (min-width:800px) and (max-width:1099px) {
+@media (min-width:801px) and (max-width:1099px) {
 	body {
 		display: grid;
 		grid-template-areas:
@@ -47,7 +47,7 @@
 	}
 }
 
-@media (max-width:799px) {
+@media (max-width:800px) {
 	body {
 		display: grid;
 		grid-template-areas:
