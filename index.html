@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Dmitry Borisov">
+		<meta name="description" content="ITechArt Students Lab courses task number two: html & css layout. This task has improved my layout skills. I learned a lot of new things aswell.">
+		<meta name="keywords" content="HTML, CSS">
+		<title>Example</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div class="title">
+				<div class="title__name">SimpleEvent</div>
+				<div class="title__slogan">Your slogan goes here</div>
+			</div>
+			<nav class="search-nav">
+				<nav class="upper-border-radius-div-with-menu">
+					<a class="fas fa-home upper-border-radius-div-with-menu__link"> Home</a>
+					<a class="fas fa-file-signature upper-border-radius-div-with-menu__link"> Contacts</a>
+					<a class="fas fa-sitemap upper-border-radius-div-with-menu__link"> Sitemap</a>
+				</nav>
+				<form class="search-form" action="">
+					<input class="search-form__input" type="text" placeholder="search phrase" name="search">
+					<button class="search-form__button" type="submit">SEARCH</button>
+				</form>
+			</nav>
+			<div class="lower-border-radius-div"></div>
+			<nav class="main-nav">
+				<div class="main-nav__link main-nav__link_active"><a>Home</a></div>
+				<div class="main-nav__placer">|</div>
+				<div class="main-nav__link"><a>Our products</a></div>
+				<div class="main-nav__placer">|</div>
+				<div class="main-nav__link"><a>About us</a></div>
+				<div class="main-nav__placer">|</div>
+				<div class="main-nav__link"><a>Portfolio</a></div>
+				<div class="main-nav__placer">|</div>
+				<div class="main-nav__link"><a>Contacts</a></div>
+			</nav>
+		</header>
+		<main>
+			<article class="article"> <!--Here I thought that the list of sections (even without a title) still can be called as article-->
+				<hr class="article__hr-right">
+				<section class="section section_new">
+					<h3 class="section__title">Lorem Ipsum</h3>
+					<div>NEW!</div>
+					<img src="img.jpg" class="section__image">
+					<p class="section__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					<button class="section__button">MORE</button>
+				</section>
+				<section class="section">
+					<h3 class="section__title">Lorem Ipsum</h3>
+					<img src="img.jpg" class="section__image">
+					<p class="section__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					<button class="section__button">MORE</button>
+				</section>
+				<section class="section">
+					<h3 class="section__title">Lorem Ipsum</h3>
+					<img src="img.jpg" class="section__image">
+					<p class="section__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					<button class="section__button">MORE</button>
+				</section>
+				<section class="section">
+					<h3 class="section__title">Lorem Ipsum</h3>
+					<img src="img.jpg" class="section__image">
+					<p class="section__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					<button class="section__button">MORE</button>
+				</section>
+			</article>
+			<aside class="aside">
+				<hr class="aside__hr-left">
+				<div class="div-about">
+					<h4 class="div-about__title">ABOUT ME</h4>
+					<img src="photo.jpg" class="div-about__image">
+					<p class="div-about__name">Cool Dog</p>
+					<p class="div-about__text">Woof! Woof! Woof! Woof! Woof! Woof! Woof! Woof!</p>
+				</div>
+				<nav class="nav-categories">
+					<h4 class="nav-categories__name">CATEGORIES</h4>
+					<ul class="nav-categories__list">
+						<li><a>Business</a></li>
+						<hr class="nav-categories__hr">
+						<li><a>Art & Photography</a></li>
+						<hr class="nav-categories__hr">
+						<li><a>Communication</a></li>
+						<hr class="nav-categories__hr">
+						<li><a>Fashion</a></li>
+						<hr class="nav-categories__hr">
+						<li><a>Sport</a></li>
+						<hr class="nav-categories__hr">
+						<li><a>Web Design</a></li>
+						<hr class="nav-categories__hr">
+						<li><a>.NET</a></li>
+						<hr class="nav-categories__hr">
+						<li><a>Bodybuilding</a></li>
+						<hr class="nav-categories__hr">
+						<li><a>Love</a></li>
+						<hr class="nav-categories__hr">
+						<li><a>Animals</a></li>
+						<hr class="nav-categories__hr">
+						<li><a>Computer Games</a></li>
+					</ul>
+				</nav>
+				<nav class="nav-categories">
+					<h4 class="nav-categories__name">ENTRIES BY MONTH</h4>
+					<ul class="nav-categories__list">
+						<li><a>March (50)</a></li>
+						<hr class="nav-categories__hr">
+						<li><a>April (215)</a></li>
+						<hr class="nav-categories__hr">
+						<li><a>May (70)</a></li>
+						<hr class="nav-categories__hr">
+						<li><a>June (86)</a></li>
+						<hr class="nav-categories__hr">
+						<li><a>July (65)</a></li>
+						<hr class="nav-categories__hr">
+						<li><a>August (45)</a></li>
+						<hr class="nav-categories__hr">
+						<li><a>September (215)</a></li>
+					</ul>
+				</nav>
+			</aside>
+		</main>
+	</body>
+</html>
