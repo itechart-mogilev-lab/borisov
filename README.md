@@ -5,3 +5,5 @@ Send Pull Request: Done!
 HTML & CSS layout; GitHub Pages: Done!
 ## https://feuerstarter.github.io/iTechArt-JS-Courses-2019/
 ![alt text](https://i.imgur.com/XKYbK3n.png)
+## Task 3
+Webpack: Done!
